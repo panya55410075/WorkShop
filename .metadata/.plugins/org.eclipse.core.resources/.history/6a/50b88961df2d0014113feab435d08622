@@ -1,0 +1,11 @@
+package app.leb.test;
+
+import android.os.Bundle;
+
+public class Resume extends Activity55410075 {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+	}
+}

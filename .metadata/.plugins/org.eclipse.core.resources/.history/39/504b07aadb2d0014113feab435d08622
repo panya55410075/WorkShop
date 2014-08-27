@@ -1,0 +1,26 @@
+package app.leb.test;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+
+public class Activity55410075 extends Activity {
+private Button btnone,btntwo,btnthree,btnfour;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.layout075);
+        viewmatching();
+    }
+	private void viewmatching() {
+		// TODO Auto-generated method stub
+		btnone = (Button) findViewById(R.id.one);
+		btntwo = (Button) findViewById(R.id.two);
+		btntwo = (Button) findViewById(R.id.three);
+		btntwo = (Button) findViewById(R.id.four);
+		
+		
+	}
+}
